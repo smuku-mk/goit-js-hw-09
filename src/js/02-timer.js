@@ -11,6 +11,7 @@ const seconds = document.querySelector('[data-seconds]');
 let countDownInterval = null;
 let userSelectedDate = 0;
 let dateUpdate = {};
+let ms = 0;
 
 startBtn.disabled = true;
 
