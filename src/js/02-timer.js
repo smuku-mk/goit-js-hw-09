@@ -36,8 +36,9 @@ const options = {
   onClose(selectedDates) {
     userSelectedDate = selectedDates[0].getTime();
     ms = userSelectedDate - Date.now();
-    if (selectedDates[0].getTime() < Date.now())
-      return alert('Please choose a date in the future');
+    if (selectedDates[0].getTime() < Date.now()) {
+      alert('Please choose a date in the future');
+    } else
     startBtn.disabled = false;
   },
 };
