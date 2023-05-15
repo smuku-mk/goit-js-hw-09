@@ -12,7 +12,7 @@ let countDownInterval = null;
 let userSelectedDate = 0;
 let dateUpdate = {};
 
-startBtn.disabled = true;
+// startBtn.disabled = true;
 
 const convertMs = ms => {
   const second = 1000;
