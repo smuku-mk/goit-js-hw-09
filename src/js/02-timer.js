@@ -67,5 +67,5 @@ startBtn.addEventListener('click', () => {
   ms = userSelectedDate - Date.now();
   clearInterval(countDownInterval);
   countDownInterval = setInterval(() => timeUpdate(), 1000);
-  startBtn.disabled = true;
+  startBtn.disabled = false;
 });
